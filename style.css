@@ -21,6 +21,11 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
+}
+.stats-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue; 
 }
 
 .stats-card {
@@ -42,6 +47,8 @@ body {
     justify-content: space-around;
 }
 
+
+
 .game-img {
     width: 100%;
     border-radius: 5px;
@@ -56,6 +63,9 @@ body {
     text-align: center;
     border-radius: 7px;
 }
+
+
+
 
 .game-card:hover {
     cursor: pointer;
@@ -72,4 +82,32 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+/* Styling for the navbar */
+.navbar {
+    background-color: #1f9593;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+/* Style the navigation links */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* On hover, change the background color */
+.navbar a:hover {
+    background-color: #0c688d;
+    color: black;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
